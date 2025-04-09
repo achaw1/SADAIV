@@ -24,7 +24,7 @@ i {
 }
 
 .c-item {
-    height:400px;
+    height:350px;
 }
 
 .c-img {
@@ -39,14 +39,12 @@ i {
 }
 
 .c-caption h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
-.c-caption .btn {
-    background-color: #b5b5b5; 
-    color: black; 
-    font-size: small;
-    padding: 10px 20px;
-    border-radius: 0%;
+
+.c-caption .btn :hover {
+    background-color: gray; 
+    color: white; 
 }
