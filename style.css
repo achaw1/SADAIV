@@ -43,6 +43,15 @@ i {
     font-weight: bold;
 }
 
+.home-opener {
+    padding: 5%;
+
+}
+.home-opener h1 {
+    color: #2B35AF;
+}
+
+
 
 /***************************project section****************************/
 
