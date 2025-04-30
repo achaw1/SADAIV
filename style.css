@@ -58,3 +58,36 @@ i {
 #NLP {
     scroll-margin-top: 340px; 
 }
+
+/*Blogs*/
+.card-img-container {
+    position: relative;
+  }
+
+  .card-img-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: brightness(40%); /* dim the image */
+  }
+
+  .card-img-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    font-weight: bold;
+  }
+
+/*Button*/
+.custom-outline-blue {
+    border: 2px solid #2B35AF;
+    background-color: transparent;
+  }
+  
+  .custom-outline-blue:hover {
+    background-color: #2B35AF;
+    color: #fff;
+  }
