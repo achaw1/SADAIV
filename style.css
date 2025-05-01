@@ -43,23 +43,40 @@ i {
     font-weight: bold;
 }
 
+?/*home opener*/
 .home-opener {
     padding: 5%;
 
 }
+
 .home-opener h1 {
     color: #2B35AF;
 }
 
+.open-points {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.open-nums {
+  font-size: 1rem;
+}
+
+/*Services section*/
+
+.home-services {
+    background-color: #4682B4;
+    color: white;
+    border-radius: 15px;
+}
 
 
-/***************************project section****************************/
 
 
 
 
-/***************************services.html****************************/
-/***Services section***/
+
+/*services.html*/
 [id] {
     scroll-margin-top: 65px; 
 }
@@ -68,7 +85,7 @@ i {
     scroll-margin-top: 340px; 
 }
 
-/*Blogs*/
+/*Blogs.html*/
 .card-img-container {
     position: relative;
   }
@@ -91,7 +108,7 @@ i {
   }
 
 
-/* Project */
+/* Project.html */
   .custom-outline-blue {
     border: 2px solid #2B35AF;
     color: #2B35AF;
