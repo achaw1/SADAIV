@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=poppings');
 
+/* Home */
 body{
 	font-family: 'poppings', sans-serif;
     font-size: 16px;
@@ -51,14 +52,18 @@ i {
     color: #2B35AF;
 }
 
+/* Section 1 */
+.custom-badge {
+  font-size: 1.2rem;
+  padding: 0.6em 0.9em;
+  background-color: #2B35AF !important;
+}
 
+.list-group-item {
+  background-color: #D9D9D9 !important;
+}
 
-/***************************project section****************************/
-
-
-
-
-/***************************services.html****************************/
+/* Services */
 /***Services section***/
 [id] {
     scroll-margin-top: 65px; 
@@ -68,7 +73,7 @@ i {
     scroll-margin-top: 340px; 
 }
 
-/*Blogs*/
+/* Blogs */
 .card-img-container {
     position: relative;
   }
@@ -136,7 +141,7 @@ i {
     margin-top: auto;
   }
 
-/*Button*/
+/* Button */
 .custom-outline-blue {
     border: 2px solid #2B35AF;
     background-color: transparent;
