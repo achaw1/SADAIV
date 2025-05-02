@@ -172,3 +172,23 @@ i {
     background-color: #2B35AF;
     color: white;
   }
+
+  /* Contact banner */
+  .c-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    padding: 0 1rem;
+  }
+  
+  .c-caption h1 {
+    font-size: 4rem; 
+    font-weight: 800;
+    color: white;
+    white-space: nowrap;
+  }
+  
+  
