@@ -174,9 +174,9 @@ i {
   }
 
   /* Contact banner */
-  .c-caption {
+  .c-caption-contact{
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -184,11 +184,14 @@ i {
     padding: 0 1rem;
   }
   
-  .c-caption h1 {
-    font-size: 4rem; 
+  .c-caption-contact h1 {
+    font-size: clamp(2rem, 5vw, 4rem); /* Responsive font size */
     font-weight: 800;
     color: white;
     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
+  
   
   
