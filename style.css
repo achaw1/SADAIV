@@ -70,8 +70,13 @@ i {
     border-radius: 15px;
 }
 
-
-
+.services-card {
+  background-color: #D9D9D9;
+  color: black;
+  padding: 1em 0;
+  border: 2px solid #2B35AF;
+  border-radius: 4em 0;
+}
 
 
 
