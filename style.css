@@ -78,6 +78,7 @@ i {
 .open-points {
   color: black;
   font-size: 1.5rem;
+}
 
 /* Carousel */
 .btn-primary-custom {
@@ -179,14 +180,14 @@ i {
     color: #fff;
   }
 
-  .fixed-card {
+  .projects-fixed-card {
     height: 420px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
   }
 
-  .card-img-top {
+  .projects-card-img-top {
     height: 200px;
     object-fit: cover;
     filter: brightness(50%);
@@ -198,11 +199,11 @@ i {
     flex: 1;
   }
 
-  .card-title {
+  .projects-card-title {
     font-weight: bold;
   }
 
-  .card-text {
+  .projects-card-text {
     max-height: 120px;
     overflow: hidden;
     text-overflow: ellipsis;
