@@ -46,7 +46,6 @@ i {
 }
 
 /*home opener*/
-<<<<<<< HEAD
 .open-nums {
   font-size: 1.1rem;
   padding: 0.7em 1em;
@@ -67,8 +66,6 @@ i {
   padding-left: 0;
 }
 
-=======
->>>>>>> 699255dd9543f322d8db3c3a63b2c6c9b8014b61
 .home-opener {
     padding: 5%;
 
@@ -81,21 +78,6 @@ i {
 .open-points {
   color: black;
   font-size: 1.5rem;
-<<<<<<< HEAD
-=======
-}
-
-/* Section 1 */
-.custom-badge {
-  font-size: 1.2rem;
-  padding: 0.6em 0.9em;
-  background-color: #2B35AF !important;
-}
-
-.list-group-item {
-  background-color: #D9D9D9 !important;
-}
->>>>>>> 699255dd9543f322d8db3c3a63b2c6c9b8014b61
 
 /* Carousel */
 .btn-primary-custom {
@@ -181,14 +163,14 @@ i {
     color: #fff;
   }
 
-  .projects-fixed-card {
+  .fixed-card {
     height: 420px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
   }
 
-  .projects-card-img-top {
+  .card-img-top {
     height: 200px;
     object-fit: cover;
     filter: brightness(50%);
@@ -200,11 +182,11 @@ i {
     flex: 1;
   }
 
-  .projects-card-title {
+  .card-title {
     font-weight: bold;
   }
 
-  .projects-card-text {
+  .card-text {
     max-height: 120px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -245,4 +227,7 @@ i {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-  }  
+  }
+  
+  
+  
