@@ -109,7 +109,12 @@ i {
   border-radius: 4em 0;
 }
 
-
+/*Home Team and careers*/
+.home-team img {
+  height: 100%;
+  object-fit: cover;
+  filter:brightness(0.4); 
+}
 
 
 /*services.html*/
@@ -142,6 +147,17 @@ i {
     color: #fff;
     font-weight: bold;
   }
+
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Optional for a subtle shadow lift */
+  }
+  
 
 
 /* Project.html */
