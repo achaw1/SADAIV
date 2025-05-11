@@ -80,10 +80,93 @@
             </div>
           </div>
         </div>
-      </section>
+    </section>
 
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>  
-  </body>
-  </html>
+    <!-- Contact Form -->
+    <section>
+        <div class="container mt-3 mb-3 align-items-center">
+            <div class="form col-lg-8 rounded shadow p-3">
+                <p class="text-start">If you’re looking to discuss your AI needs, you’ve reached the right page. 
+                    Fill out the form below, and we will get back to you within 24-48 hours.
+                </p>
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-6">
+                        <label for="firstName" class="form-label required">First Name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="first name" required>
+                        <div class="invalid-feedback">Please enter your first name.</div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="lastName" class="form-label required">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="last name" required>
+                        <div class="invalid-feedback">Please enter your last name.</div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="email" class="form-label required">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="john.doe@gmail.com"required>
+                        <div class="invalid-feedback">Please enter a valid email.</div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="phone" class="form-label required">Phone</label>
+                        <input type="tel" class="form-control" id="phone" pattern="[0-9]{10}" maxlength="10" placeholder="(213) 456-7890" required>
+                        <div class="invalid-feedback">Please enter a valid 10-digit phone number.</div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="city" class="form-label required">City</label>
+                        <input type="text" class="form-control" id="city" placeholder="Eg: Lethbridge" required>
+                        <div class="invalid-feedback">Please enter your city.</div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="province" class="form-label required">Reason for Contacting</label>
+                        <select class="form-select form-control" id="province" required>
+                            <option value="">Choose...</option>
+                            <option value="AB">Alberta</option>
+                            <option value="BC">British Columbia</option>
+                            <option value="MB">Manitoba</option>
+                            <option value="NB">New Brunswick</option>
+                            <option value="NL">Newfoundland and Labrador</option>
+                            <option value="NS">Nova Scotia</option>
+                            <option value="ON">Ontario</option>
+                            <option value="PE">Prince Edward Island</option>
+                            <option value="QC">Quebec</option>
+                            <option value="SK">Saskatchewan</option>
+                            <option value="NT">Northwest Territories</option>
+                            <option value="NU">Nunavut</option>
+                            <option value="YT">Yukon</option>
+                        </select>
+                        <div class="invalid-feedback">Please select your province.</div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="requestTitle" class="form-label required">Reason for Contacting</label>
+                        <select class="form-select form-control" id="province" required>
+                            <option value="">Choose...</option>
+                            <option value="AB">Natural lanuage processing</option>
+                            <option value="BC">Machine Learning and Applied ML</option>
+                            <option value="MB">Machine Translation</option>
+                            <option value="NB">Low Resourced Languages and Resource Development</option>
+                            <option value="NL">Computational Lexicography</option>
+                            <option value="NS">Data Analysis and Data Management</option>
+                            <option value="ON">Ethics in AI</option>
+                            <option value="PE">Digital humanities</option>
+                        </select>
+                        <div class="invalid-feedback">Please select a service.</div>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="issueSummary" class="form-label required">How can we help you?</label>
+                        <textarea class="form-control" id="issueSummary" rows="4" placeholder="Describe project here" required></textarea>
+                        <div class="invalid-feedback">Please describe your service request here</div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-outline-primary">Get started</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>  
+</body>
+</html>
       

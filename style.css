@@ -119,10 +119,58 @@ i {
 }
 
 /*Home Team and careers*/
-.home-team img {
-  height: 100%;
+.image-card {
+  overflow: hidden;
+  border-radius: 10px;
+  height: 350px;
+}
+
+.image-card img {
+  transition: transform 0.3s ease;
+  display: block;
   object-fit: cover;
-  filter:brightness(0.4); 
+  height: 100%;
+}
+
+.image-card:hover img {
+  transform: scale(1.05);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
+  display: flex;
+  align-items: flex-end;
+  justify-content: left;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-card:hover .overlay {
+  opacity: 1;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.overlay-text:hover {
+  text-decoration: underline;
+}
+
+/* Home Projects section */
+/* Optional hover effect on the image */
+img.rounded-4:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
 }
 
 
@@ -245,6 +293,4 @@ i {
     overflow: hidden;
     text-overflow: ellipsis;
   }
-  
-  
   
