@@ -287,10 +287,23 @@ img.rounded-4:hover {
   
   .c-caption-contact h1 {
     font-size: clamp(2rem, 5vw, 4rem); /* Responsive font size */
-    font-weight: 800;
+    font-weight: 800px;
     color: white;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
+
+  /* Footer */
+  .footer {
+    font-size: 14px;
+    background-color: #4682B4;
+
+  }
+
+  .footer a {
+    text-decoration: none;
+  }
+
+
   
