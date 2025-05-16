@@ -25,6 +25,12 @@ i {
     text-underline-offset: 0.5em;
 }
 
+.nav-link.active {
+  color: black;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
 .c-item {
     height:400px;
 }
