@@ -77,8 +77,7 @@ i {
 }
 
 .home-opener {
-    padding: 5%;
-
+    padding: 3%;
 }
 
 .home-opener h1 {
@@ -143,7 +142,7 @@ i {
 .home-services {
     background-color: #4682B4;
     color: white;
-    border-radius: 15px;
+    border-radius:0px;
 }
 
 .services-card {
