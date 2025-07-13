@@ -233,7 +233,94 @@
                     <h6 class="text-uppercase fw-bold">Useful links</h6>
                     <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: whitesmoke; height: 1px"/>
                     <p>
-                      <a href="#!" class="text-white">FAQs</a>
+                      <a type="button" href="#!" class="text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">FAQs</a> 
+
+                      <!--FAQ Modal -->
+                      <div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="exampleModalLabel">Frequently Asked Questions</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="accordion" id="faqAccordion">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="faq1">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                      1. What services does SADAIV Education Limited provide?
+                                    </button>
+                                  </h2>
+                                  <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="faq1" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                      We specialize in machine learning consulting, including Natural Language Processing (NLP), machine translation, data management, digital humanities, and more.
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="faq2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                      2. How can I request a project or consultation?
+                                    </button>
+                                  </h2>
+                                  <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                      Fill out the contact form on the contact us page. Provide your project details, and we’ll get back to you within 24–48 hours.
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="faq3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                      3. Who submits blogs or projects to the website?
+                                    </button>
+                                  </h2>
+                                  <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="faq3" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                      Only Mr. Gurpreet Singh and authorized staff submit blogs or projects. Admins have final control to approve and publish all content.
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="faq4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                      4. How do I know my data and submissions are secure?
+                                    </button>
+                                  </h2>
+                                  <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="faq4" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                      We use Firebase Auth, Firestore, and session control mechanisms to prevent unauthorized access and data leakage. Only users by Mr. Gurpreet Singh can access dashboard features.
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="faq5">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                      5. Can I join SADAIV as a contributor or partner?
+                                    </button>
+                                  </h2>
+                                  <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="faq5" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                      Absolutely! Reach out to us via the contact form, Phone or email to express your interest and area of expertise.
+                                    </div>
+                                  </div>
+                                </div>
+
+                              </div> 
+                              <p class="mt-3">We hope this was helpful. Click on the button below to talk to one of us!</p>          
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary" onclick="window.location.href='contactus.html'">Talk to us </button>           
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
                     </p>
                     <p>
                       <a href="about.html" class="text-white">About</a>
